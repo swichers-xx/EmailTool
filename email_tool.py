@@ -1,6 +1,6 @@
 
 from email_client import EmailClient
-from email import Email
+from email_message import EmailMessage
 from response import Response
 from task import Task
 
@@ -13,7 +13,7 @@ class EmailTool:
     def process_emails(self):
         emails = self.email_client.fetch_emails()
         for raw_email in emails:
-            email = Email(raw_email)
+            email = EmailMessage(raw_email)
             if email.is_important(self.important_domain):
                 task = Task(email)
                 print(task.task_description)
