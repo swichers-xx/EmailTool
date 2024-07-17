@@ -1,0 +1,7 @@
+
+IMAP_SERVER: 'imap.your-email-provider.com'
+SMTP_SERVER: 'smtp.your-email-provider.com'
+EMAIL_ADDRESS: 'your-email@example.com'
+EMAIL_PASSWORD: 'your-email-password'
+IMPORTANT_DOMAIN: 'important-domain.com'
+    

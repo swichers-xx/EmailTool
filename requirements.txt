@@ -1,0 +1,6 @@
+
+imaplib2==2.58
+smtplib==3.10.4
+email==6.0.0
+python-dotenv==0.19.2
+    
